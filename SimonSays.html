@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="SimonSays.css">
+    <script src="SimonSays.js"></script>
+</head>
+<body>
+    <h3 title="The player has to repeat a short sequence of button presses after demonstration by the device.">Simon Says</h3>
+    <main class="gameContainer">
+        <div class="outerRing">
+            <div id='5' class="outerTile firstOuterTiles lightblue hide"></div>
+            <div id='6' class="outerTile firstOuterTiles orange hide"></div>
+            <div id='7' class="outerTile secondOuterTiles purple hide"></div>
+            <div id='8' class="outerTile secondOuterTiles pink hide"></div>
+            <div class="outerCutout"></div>
+            <div class="innerRing">
+                <div id='1' class="tile red"></div>
+                <div id='2' class="tile blue"></div>
+                <div id='3' class="tile yellow"></div>
+                <div id='4' class="tile green"></div>
+                <div class="cutout">
+                    <div class="startButton">
+                        <p>START</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progressIndicator"></div>
+    </main>
+</body>
+</html>
